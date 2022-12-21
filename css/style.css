@@ -1,0 +1,853 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    background-color: #F5F5F5;
+}
+
+h1,h2.h3{  
+    font-family: DM Serif Display ;
+}
+/**************************************first-section***************************************/
+.first-section{
+    background-image: url("../img/Markersoft.png");
+    background-color: rgb(37, 92, 148);
+}
+
+.first-section .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-section .header .logo img{
+    margin-left: 83px;
+    width: 245px;
+}
+
+.first-section .header .center{
+    width: 100%;
+    background-color: aquamarine !important;
+}
+
+.first-section .header .center a{
+    color: #000000;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+.first-section .header .navbar-collapse{
+    margin-left: 161px;
+}
+
+
+.first-section .header .menu{
+    margin-right: 145px;
+}
+
+button{
+    background-color: #22A6B3;
+    border: 0;
+    border-radius: 5px;
+    height: 33px;
+}
+
+button:hover{
+    background-color: #67999e;
+}
+
+.first-section .header .menu button{
+    margin-right: 23px;
+}
+ a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.first-section .header .menu i{
+    margin-right: 15px;
+    color: #4B4B4B;
+}
+
+.first-section .Home .text{
+    margin-top: 21%;
+}
+
+.first-section .Home .text h2{
+    line-height: 60px;
+    color:#F0932B;
+}
+
+.first-section .Home .text .color{
+    color:#F0932B;
+}
+
+.first-section .Home .text button{
+    margin: 10px;
+    height: 40px;
+}
+
+.first-section .Home .text .btn{
+    background-color: #FFFFFF;
+    border: 0.5 px;
+}
+
+.first-section .Home .text .btn a{
+    color:  #1F1F1F;
+}
+
+.first-section .Home img{
+    width: 600px;
+    height: 432px;
+}
+/**************************************Second-section***************************************/
+.Second-section .about .paragraph{
+    margin-top: 10px;
+}
+
+.Second-section .adress h3{
+    color: #F0932B;
+}
+
+ p{
+    font-size: 12px;
+}
+
+.Second-section .about .my-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+    border: 0.1px solid #D4D4D4;
+    margin-top: 14px;
+}
+
+.Second-section .about .my-card img{
+    width:80px ;
+    height: 72.91px;
+    margin-left: 24px;
+}
+
+.Second-section .about .my-card .text{
+    padding: 20px;
+}
+
+.Second-section .img-mark1 img{
+    width: 630px;
+    height:395px;
+}
+/**************************************third-section***************************************/
+
+.third-section .Services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    position: relative;
+}
+
+.third-section .Services .show{
+    font-size: 15px;
+}
+
+.third-section .Services .show span{
+    font-weight: bold;
+    font-size: 24px;
+    color: #545454;
+}
+
+.third-section .Services .MS{
+    border-radius: 50%;
+    background-color:  #F8F8F8;
+    height: 149px;
+    width: 193px;
+    z-index: 0;
+}
+
+.third-section .Services .MS img{
+    width: 195px;
+    height: 166px;
+}
+
+.third-section .parent{
+    /* background-image: url("../img/Rectangle\ 18.png"); */
+    background-color: #F8F8F8;
+    border-radius: 8%;
+    z-index: -1;
+    padding: 20px;
+    margin-top: -39px;
+}
+
+.third-section .parent .child{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.third-section .parent .child span{
+    color: #F0932B;
+}
+
+.third-section .parent .box{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+}
+
+.third-section .parent .box .card{
+    width: 240px  !important;
+    height: 335px;
+    margin-top: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center !important;
+}
+
+.third-section .parent .box .card .card-body{
+    margin-top: 17px;
+}
+
+.third-section .parent .box .card .card-img-top{
+    width: 125px;
+    height: 125px;
+}
+/**************************************four-section***************************************/
+.four-section .adress{
+    margin-bottom: 20px;
+}
+
+.four-section .adress h3{
+    color: #F0932B;
+}
+
+
+
+
+/**************************************five-section***************************************/
+
+.five-section .Clients{
+    display: flex;
+    padding: 66px;
+}
+
+.five-section .Clients .logo2{
+   padding-right: 20px;
+   color: #A3A3A3;
+}
+
+.five-section .Clients .logo2 h3{
+    width: 152px;
+    font-size: 25px;
+}
+
+.five-section .Clients .menu2{
+    padding-left: 50px;
+}
+
+.five-section .Clients .menu2 p{
+    text-align: center;
+    color: #A3A3A3;
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+
+.five-section .Clients .line img{
+    height:247px ;
+}
+/**************************************six-section***************************************/
+
+.six-section{
+    margin: 0px 160px;
+}
+
+.six-section .imgs .img-six .three , .five{
+    margin-top: 10px;
+}
+
+.six-section .imgs .img-six .four{
+    height: 60%;
+    width: 122px;
+}
+
+.six-section .imgs .img-six .five{
+    width: 122px;
+    height: 40%;
+}
+
+.six-section .text-six{
+    margin-left: 45px;
+    margin-top: 23px;
+}
+
+.six-section .text-six h2,h4 span{
+    color: #F0932B;
+}
+
+.six-section .text-six .img-line{
+    display: flex;
+    margin-top: 20px;
+}
+
+.six-section .text-six .img-line .line-1{
+    margin-top: 1px;
+    height: 1px;
+    width: 207px;
+}
+
+.six-section .text-six .img-line .line-2{
+    height: 4px;
+}
+
+.six-section .text-six p{
+    margin: 23px 0;
+}
+
+.six-section .text-six button{
+    width: 100%;
+    height: 45px;
+}
+/**************************************seven-section***************************************/
+.seven-section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.seven-section .img-right img{
+    position: absolute;
+}
+
+.right{
+    width: 309px;
+    height: 309px;
+    right: 91%;
+}
+
+.seven-section .img-left img{
+    position: absolute;
+}
+
+.left{
+    width: 289px;
+    height: 289px;
+    left: 85%;
+    bottom: 0%;
+}
+
+.seven-section .Contact{
+    text-align: center;
+}
+
+.seven-section .Contact .adress h2{
+    color: #F0932B;
+}
+.seven-section .Contact .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    margin-right: 53px;
+}
+
+.seven-section .Contact .form .child-form{
+    margin: 55px 42px  0;
+}
+
+.seven-section h6{
+    text-align: left;
+}
+
+.seven-section input{
+    border: 0;
+    background: 0;
+    border-bottom: 2px solid #c7c7c7;
+    margin-bottom: 25px;
+    width: 127%;
+}
+
+.seven-section .Contact .Select {
+    display: block;
+}
+.seven-section .Contact .Select .child-Select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.seven-section .Contact .Select .child-Select .vector{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.seven-section .Contact .Select .child-Select .vector p{
+    margin-top: 14px;
+    margin-left: 9px;
+}
+
+.seven-section .Contact .Select h5 , .Message{
+    text-align: left;
+    margin-left: 47px;
+}
+
+.seven-section .Contact .end-input{
+    width: 85%;
+}
+/**************************************eight-section***************************************/
+
+
+.eight-section .footer{
+    background-image: url(../img/Mask\ group.png);   
+    border-radius: 60px;
+}
+
+.eight-section .footer .img-ms{
+    margin: 15px 0;
+    text-align: center;
+}
+
+.eight-section .footer .img-ms img{
+    width: 250px;
+}
+
+.eight-section .footer .info{
+    margin-left: 40px;
+}
+
+.eight-section .footer .info .copyright{
+    margin: 30px 0;
+}
+
+.eight-section .footer .info .copyright h6{
+    margin: 15px 0;
+}
+
+.eight-section .footer .info .copyright span{
+    font-weight: bold;
+
+}
+.eight-section .footer .info button{
+    height: 42px;
+    width: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.eight-section .footer .info button i{
+    color: whitesmoke;
+}
+
+.eight-section .footer .links{
+    margin-top: 36px;
+}
+
+.eight-section .footer .links li{
+    list-style: none;
+    color: #000000;
+    line-height: 12px;
+}
+
+.eight-section .footer .links li:hover{
+    color:#beb8b8;
+}
+ 
+.eight-section .footer .contact{
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.eight-section .footer .contact h6{
+    padding: 6px 0;
+}
+
+.eight-section .footer .contact .icons{
+    margin: 5px 0;
+}
+
+.eight-section .footer .contact .icons i{
+    padding-right: 5px;
+    color: #22A6B3;
+}
+
+.eight-section .footer .footer-end .end-text{
+    padding: 20px 0;
+}
+
+/**************************************media-Query***************************************/
+
+
+@media (max-width: 576px) {
+
+    body{
+        border : 1px solid red;
+    }
+
+    .first-section .header .logo img {
+        margin-left: 15px;
+        width: 200px;
+    }
+
+    .first-section .header .menu{
+        display: none;
+    }
+
+    .first-section .header .center {
+        margin-left: 0;
+}
+
+.first-section .Home{
+    margin-top: -70px;
+}
+
+.first-section .Home .text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Second-section .img-mark1 img {
+    margin-top: 20px;
+}
+
+.Second-section .adress .Line1{
+    display: none;
+}
+
+.third-section .Services .show{
+    display: none;
+}
+
+.third-section .parent .box{
+    margin-left: 42px
+}
+
+.four-section .adress .Line1{
+    display: none;
+}
+
+ h3 {
+    font-size: 20px;
+}
+
+.five-section .Clients .menu2 img{
+    display: none;
+}
+
+.five-section .Clients{
+    padding: 0;
+}
+
+.five-section .Clients .logo2 h3 {
+    width: 93px;
+    font-size: 15px
+}
+
+.five-section .Clients .menu2 {
+    padding-left: 15px;
+}
+
+.six-section {
+    margin: 0px 40px;
+}
+
+.six-section .img-six{
+    display:none;
+}
+
+.six-section .text-six {
+    margin-left: 0px;
+    width: 100% !important;
+}
+
+.six-section .text-six .img-line .line-1{
+    display: none;
+}
+
+.seven-section .img-right,.img-left{
+    display: none;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.seven-section .Contact .form {
+    display: block;
+}
+
+.seven-section .Contact .form h6{
+    text-align: center;
+    font-size: 15px;
+}
+
+.seven-section .Contact .form input{
+    width: 100%;
+}
+
+.seven-section .Contact .form .child-form {
+    margin: 40px 0px 0 30px;
+}
+
+.seven-section .Contact .adress p{
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.seven-section .Contact .Select h5, .Message {
+    text-align: center;
+    margin-left: 0;
+}
+
+.seven-section .Contact .Select .child-Select {
+    display: block;
+}
+
+.seven-section h6 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.seven-section .Contact .end-input {
+    width: 100%;
+}
+
+.eight-section .footer .img-ms img {
+    width: 190px;
+}
+
+.eight-section .footer{
+    background-image:none; 
+}
+
+.eight-section .footer .info .copyright h6 {
+    margin: 15px -8px;
+}
+
+.eight-section .footer .img-ms img {
+    margin-top: -70px;
+}
+
+
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    body{
+        border : 1px solid green;
+    }
+
+    .first-section .header .logo img {
+        margin-left: 60px;
+        width: 200px;
+    }
+
+    .first-section .header .menu{
+        display: none;
+    }
+
+    .first-section .header .center {
+        margin-left: 0;
+        margin-right: 50px;
+}
+
+.first-section .Home{
+    margin-top: -70px;
+}
+
+.first-section .Home .text {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.Second-section .img-mark1 img {
+    margin-top: 50px;
+}
+
+.third-section .Services .show span {
+    font-size: 18px;
+}
+
+.third-section .Services{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.third-section .Services .MS {
+    height: 127px;
+    width: 143px;
+}
+
+.third-section .Services .MS img {
+    width: 141px;
+    height: 117px;
+}
+
+.third-section .parent .box {
+    margin-left: 117px;
+}
+
+.five-section .Clients {
+    padding: 0px;
+    margin: 30px 0;
+}
+
+.five-section .Clients .line img {
+    height: 207px;
+}
+
+.six-section {
+    margin: 0px 57px;
+}
+
+.six-section .text-six {
+    margin-left: 0px;
+    margin-top: 51px;
+}
+
+.seven-section .img-right,.img-left{
+    display: none;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.seven-section .btn{
+    display: flex;
+    margin-left: 32px;
+}
+
+.eight-section .footer{
+    background-image:none; 
+    margin-top: -60px;
+}
+
+.eight-section .footer .info {
+    margin-left: 0px;
+}
+
+.eight-section .footer .links {
+    margin-left: -30px;
+}
+
+.eight-section .footer .contact {
+    margin-left: 0px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    body{
+        border : 1px solid yellow;
+    }
+
+.first-section .header .logo img {
+        margin-left: 100px;
+    }
+
+.first-section .header .menu{
+        display: none;
+    }
+
+.first-section .header .center {
+        margin-left: 0;
+        margin-right: 50px;
+}
+
+.first-section .Home{
+    margin-top: -70px;
+}
+
+.first-section .Home .text {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.Second-section .img-mark1 img {
+    margin-top: 50px;
+}
+
+.third-section .Services {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.third-section .parent .box {
+    margin-left: 63px;
+    margin-right: 48px;
+    margin-bottom: 40px;
+}
+
+.five-section .Clients .menu2 p {
+    text-align: left;
+}
+
+.eight-section .footer{
+    background-image:none; 
+}
+
+.eight-section .footer .img-ms {
+    margin: 50px 0px;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body{
+        border : 1px solid blue;
+    }
+
+    .first-section .header .menu{
+        display: none;
+    }
+
+    .first-section .header .center {
+        margin-right: 100px;
+        margin-right: 100px;
+    }
+
+    .third-section .parent .box {
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 40px;
+    }
+
+    .eight-section .footer .img-ms {
+        margin: 0 0 50px;
+        padding-top: 50px;
+    }
+
+    .eight-section .footer .links li {
+        margin: 0 -14px;
+    }
+
+    .eight-section .footer .info {
+        margin-left: 29px;
+    }
+
+    .eight-section .footer .info h5{
+        font-size: 18px;
+    }
+
+    .eight-section .footer .info h6{
+        font-size: 15px;
+    }
+
+}
